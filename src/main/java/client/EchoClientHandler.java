@@ -1,9 +1,5 @@
 package client;
 
-/**
- * @auther zhongweiwu
- * @date 2018/6/25 16:22
- */
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
@@ -12,6 +8,10 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 import io.netty.util.CharsetUtil;
 
+/**
+ * @auther zhongweiwu
+ * @date 2018/6/25 16:22
+ */
 @Sharable
 public class EchoClientHandler extends SimpleChannelInboundHandler<ByteBuf> {
     @Override

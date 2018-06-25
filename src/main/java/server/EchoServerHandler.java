@@ -9,6 +9,10 @@ import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.util.CharsetUtil;
 import io.netty.channel.ChannelHandler;
 
+/**
+ * @auther zhongweiwu
+ * @date 2018/6/25 16:32
+ */
 @Sharable
 public class EchoServerHandler extends ChannelInboundHandlerAdapter {
     @Override

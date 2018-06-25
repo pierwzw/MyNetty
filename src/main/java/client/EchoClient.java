@@ -1,9 +1,5 @@
 package client;
 
-/**
- * @auther zhongweiwu
- * @date 2018/6/25 16:24
- */
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
@@ -15,6 +11,10 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 
 import java.net.InetSocketAddress;
 
+/**
+ * @auther zhongweiwu
+ * @date 2018/6/25 16:24
+ */
 public class EchoClient {
     private final static String HOST = "localhost";
     private final static int PORT = 8080;
